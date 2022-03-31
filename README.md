@@ -1,6 +1,6 @@
 # 2022-matmul
 
-Reimplementation of the matrix multiplication proposed in the following papers: XYZ et al., "Simple Matrix Multiplication", IEEE XXX, 2022.
+Reimplementation of the matrix multiplication proposed in the following paper: XYZ et al., "Simple Matrix Multiplication", IEEE XXX, 2022.
 
 ## Prerequisites
 - You need to install Python 3.8+
