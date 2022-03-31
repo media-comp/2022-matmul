@@ -1,0 +1,17 @@
+name: bench_ci
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Run benchmark
+      run: |
+        python bench.py
