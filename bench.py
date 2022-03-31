@@ -1,4 +1,3 @@
-from pip import main
 from simple_matmul import f
 import numpy as np
 import time

@@ -4,6 +4,7 @@ Reimplementation of the matrix multiplication proposed in the following papers: 
 
 ## Prerequisites
 - You need to install Python 3.8+
+- Install the required packages by:
 ```console
 pip install -r requirements.txt
 ```
