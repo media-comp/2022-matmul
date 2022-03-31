@@ -21,7 +21,7 @@ t0 = time.time()
 C = f(A, B)
 elapsed = time.time() - t0
 
-print(f"{elapsed} sec")
+print(f"{elapsed * 1000} msec")
 
 err = np.sum((C - gt) ** 2)
 
