@@ -1,4 +1,4 @@
-from affine import f
+from affine import affine
 
 import numpy as np
 import time
@@ -24,7 +24,7 @@ gt = np.array([
 ])
 
 t0 = time.time()
-C = f(A, B, X)
+C = affine(A, B, X)
 elapsed = time.time() - t0
 
 print(f"{elapsed * 1000} msec")

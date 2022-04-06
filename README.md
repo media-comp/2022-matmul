@@ -14,8 +14,19 @@ pip install -r requirements.txt
 python bench.py
 ```
 
+
 You will obtain the result:
 ```console
-7.867813110351562e-06 sec
+0.007152557373046875 msec
+Error: 0
+```
+Or
+```console
+python bench_affine.py
+```
+You will obtain the result:
+
+```console
+0.012159347534179688 msec
 Error: 0
 ```

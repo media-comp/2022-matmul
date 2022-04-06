@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def f(A, B, X):
+def affine(A, B, X):
     """
     Given three matrices A, X and B, compute their matrix-product, AX + B.
 
