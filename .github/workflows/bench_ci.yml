@@ -15,3 +15,4 @@ jobs:
     - name: Run benchmark
       run: |
         python bench.py
+        python bench_affine.py
